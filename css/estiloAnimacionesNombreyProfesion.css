@@ -1,0 +1,1017 @@
+
+/*Animacion del texto del Nombre y Apellido*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+#box {
+  display: flex;
+}
+
+.textoNombre {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 900;
+  font-size: 5em;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 0.9em;
+
+}
+
+.textoNombre.animado {
+  color: #cfd7f7;
+  animation: animacion 0.5s ease-in-out 1;
+}
+
+@keyframes animacion {
+  0% {
+    transform: scale(1.2, 0.5);
+  }
+
+  16% {
+    transform: scale(1.2, 0.5);
+  }
+
+  25% {
+    transform: scale(1.2, 0.5);
+  }
+
+  32% {
+    transform: scale(0.8, 1.1);
+  }
+
+  48% {
+    transform: scale(0.95, 1);
+  }
+
+  64% {
+    transform: scale(0.8, 1.2);
+  }
+
+  80% {
+    transform: scale(1.15, 1);
+  }
+
+  87% {
+    transform: scale(1.15, 1);
+  }
+
+  90% {
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8, 1);
+  }
+
+  95% {
+    transform: scale(1.05, 1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+
+/*Animacion del texto de la profesion*/
+
+.alpha{
+    color: #a0cfee;
+    font-family: 'Almarai',sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    
+}
+
+.alpha.animated{
+  animation: ani 0.9s ease-in-out 1;
+}
+@keyframes ani {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    color: #ff6347;
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+.alpha2.animated2{
+  animation: ani2 0.9s ease-in-out 0.1s 1;
+}
+@keyframes ani2 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    color: #ff6347;
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+.alpha3.animated3{
+  /* color: #ff6347; */
+  animation: ani3 0.9s ease-in-out 0.2s 1;
+}
+@keyframes ani3 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    color: #ff6347;
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+.alpha4.animated4{
+  animation: ani4 0.9s ease-in-out 0.3s 1;
+}
+@keyframes ani4 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    color: #ff6347;
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+.alpha5.animated5{
+  animation: ani5 0.9s ease-in-out 0.6s 1;
+}
+@keyframes ani5 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    color: #ff6347;
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+.alpha6.animated6{
+  animation: ani6 0.9s ease-in-out 1.3s 1;
+}
+@keyframes ani6 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+.alpha7.animated7{
+  animation: ani7 0.9s ease-in-out 1.4s 1;
+}
+@keyframes ani7 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+.alpha8.animated8{
+  animation: ani8 0.9s ease-in-out 1.5s 1;
+}
+@keyframes ani8 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+.alpha9.animated9{
+  animation: ani9 0.9s ease-in-out 1.6s 1;
+}
+@keyframes ani9 {
+  0%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    color: #ff6347;
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
+.alpha10.animated10{
+    animation: ani10 0.9s ease-in-out 1.7s 1;
+  }
+  @keyframes ani10 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha11.animated11{
+    animation: ani11 0.9s ease-in-out 1.8s 1;
+  }
+  @keyframes ani11 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha12.animated12{
+    animation: ani12 0.9s ease-in-out 1.9s 1;
+  }
+  @keyframes ani12 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha13.animated13{
+    animation: ani13 0.9s ease-in-out 2s 1;
+  }
+  @keyframes ani13 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha14.animated14{
+    animation: ani14 0.9s ease-in-out 2.1s 1;
+  }
+  @keyframes ani14 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha15.animated15{
+    animation: ani15 0.9s ease-in-out 2.2s 1;
+  }
+  @keyframes ani15 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha16.animated16{
+    animation: ani16 0.9s ease-in-out 2.3s 1;
+  }
+  @keyframes ani16 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha17.animated17{
+    animation: ani17 0.9s ease-in-out 2.4s 1;
+  }
+  @keyframes ani17 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha18.animated18{
+    animation: ani18 0.9s ease-in-out 2.5s 1;
+  }
+  @keyframes ani18 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha19.animated19{
+    animation: ani19 0.9s ease-in-out 2.6s 1;
+  }
+  @keyframes ani19 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha20.animated20{
+    animation: ani20 0.9s ease-in-out 2.7s 1;
+  }
+  @keyframes ani20 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+  .alpha21.animated21{
+    animation: ani21 0.9s ease-in-out 2.9s 1;
+  }
+  @keyframes ani21 {
+    0%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    16%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    25%{
+      color: #ff6347;
+      transform: scale(1.2,0.5);
+    }
+    32%{
+      transform: scale(0.8,1.1);
+    }
+    48%{
+      transform: scale(0.95,1);
+    }
+    64%{
+      transform: scale(0.8,1.2);
+    }
+    80%{
+      transform: scale(1.15,1);
+    }
+    87%{
+      transform: scale(1.15,1);
+    }
+    90%{
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8,1);
+    }
+    95%{
+      transform: scale(1.05,1);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
+
+          /*    TypeWriter Effect      */
+
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid #ff6347;
+  white-space: nowrap;
+  animation: typing 1.9s steps(20, end) forwards, blinking .8s infinite;
+  width: 0;
+  
+}
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 55%; 
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+    }
+  to { 
+  border-color: #ff6347;
+  }
+}
+/*-----------------------------------------*/

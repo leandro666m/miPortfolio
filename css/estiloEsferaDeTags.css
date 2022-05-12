@@ -1,0 +1,14 @@
+/*     Google fonts    */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+  .tagcloud {
+    display: inline-block;
+        font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+  }
+  
+  /* cambio de color */
+  .tagcloud--item:hover {
+    color: #71a3ff ;
+  }
